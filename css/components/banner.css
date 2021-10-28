@@ -1,0 +1,12 @@
+.banner {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(90deg, tomato, wheat);
+}
+
+h1 {
+  text-align: center;
+
+}

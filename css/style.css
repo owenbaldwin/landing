@@ -1,0 +1,224 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  /* font-family: Poppins; */
+  font-family: 'Bungee', cursive;
+}
+
+p {
+  font-family: 'Bungee', cursive;
+
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Bungee', cursive;
+
+}
+
+/* Custom design below! */
+
+/* @import url("components/banner.css"); */
+
+
+/* .master-container {
+  width: 100%;
+  height: 100%;
+} */
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+
+
+.banner-container > p {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.btn-one{
+  display: flex;
+  justify-content: center;
+
+}
+
+.btn-one a {
+  text-align: center;
+  color: rgb(212, 214, 214);
+  background-color: rgb(82, 82, 82);
+  padding: 15px 30px;
+  margin-top: 30px;
+  border-radius: 40px;
+  box-shadow:
+    0 0 4px rgb(226, 231, 231),
+    0 0 7px rgb(63, 190, 207),
+    0 0 10px rgb(98, 190, 202),
+    0 0 21px rgb(115, 192, 202),
+    0 0 42px rgb(157, 199, 204);
+  transition: .3s;
+}
+
+.btn-one > a:hover {
+  color: rgb(255, 255, 255);
+  box-shadow:
+    0 0 14px rgb(226, 231, 231),
+    0 0 20px rgb(63, 190, 207),
+    0 0 30px rgb(98, 190, 202),
+    0 0 60px rgb(115, 192, 202),
+    0 0 100px rgb(157, 199, 204);
+}
+
+
+
+
+
+
+/* CARDS */
+
+.middle {
+  background-color: black;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+.card {
+  /* background-color: rgb(82, 82, 82); */
+  color: rgb(212, 214, 214);
+  height: 400px;
+  width: 300px;
+  margin: 0 30px;
+  border-radius: 15px;
+  box-shadow:
+    0 0 4px rgb(226, 231, 231),
+    0 0 7px rgb(63, 190, 207),
+    0 0 10px rgb(98, 190, 202),
+    0 0 21px rgb(115, 192, 202),
+    0 0 42px rgb(157, 199, 204);
+  transition: .3s;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  /* width: 100%;
+  height: 600px; */
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  color: rgb(255, 255, 255);
+  box-shadow:
+    0 0 14px rgb(226, 231, 231),
+    0 0 20px rgb(63, 190, 207),
+    0 0 30px rgb(98, 190, 202),
+    0 0 60px rgb(115, 192, 202),
+    0 0 100px rgb(157, 199, 204);
+
+}
+
+.presentation {
+  text-shadow:
+    0 0 4px rgb(226, 231, 231),
+    0 0 7px rgb(63, 190, 207),
+    0 0 10px rgb(98, 190, 202),
+    0 0 21px rgb(115, 192, 202),
+    0 0 42px rgb(157, 199, 204);
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.card > h2 {
+  text-align: center;
+
+
+}
+
+.card > p {
+  text-align: center;
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.socialm > li > a {
+  text-align: center;
+  padding: 10px;
+  color: rgb(116, 116, 116);
+  font-size: 40px;
+}
+
+.socialm > li{
+  display: inline;
+  padding: 20px;
+  /* color: ; */
+  /* color: rgb(82, 82, 82); */
+  text-shadow:
+    0 0 4px rgb(226, 231, 231),
+    0 0 7px rgb(63, 190, 207),
+    0 0 10px rgb(98, 190, 202),
+    0 0 21px rgb(115, 192, 202),
+    0 0 42px rgb(157, 199, 204);
+  transition: .3s;
+}
+
+.socialm > li:hover{
+  text-shadow:
+    0 0 14px rgb(226, 231, 231),
+    0 0 20px rgb(63, 190, 207),
+    0 0 30px rgb(98, 190, 202),
+    0 0 60px rgb(115, 192, 202),
+    0 0 100px rgb(157, 199, 204);
+}
+
+.socialm{
+  text-align: center;
+
+
+}
